@@ -1,6 +1,6 @@
 {
   "name": "@hub9/tslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hub9 configuration for TSLint",
   "repository": "git+https://github.com/hub9co/tslint-config.git",
   "keywords": [
@@ -12,6 +12,7 @@
   "license": "MIT",
   "bugs": "https://github.com/hub9co/tslint-config/issues",
   "homepage": "https://github.com/hub9co/tslint-config",
+  "main": "tslint.json",
   "dependencies": {
     "codelyzer": "^4.0.2"
   },
