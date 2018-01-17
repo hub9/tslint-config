@@ -1,6 +1,6 @@
 {
   "name": "@hub9/tslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "hub9 configuration for TSLint",
   "repository": "git+https://github.com/hub9co/tslint-config.git",
   "keywords": [
@@ -14,7 +14,8 @@
   "homepage": "https://github.com/hub9co/tslint-config",
   "main": "tslint.json",
   "dependencies": {
-    "codelyzer": "^4.0.2"
+    "codelyzer": "^4.0.2",
+    "tslint-eslint-rules": "^4.1.1"
   },
   "peerDependencies": {
     "tslint": "^5.0.0"
