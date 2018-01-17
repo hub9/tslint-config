@@ -1,0 +1,21 @@
+{
+  "name": "@hub9/tslint-config",
+  "version": "1.0.0",
+  "description": "hub9 configuration for TSLint",
+  "repository": "git+https://github.com/hub9co/tslint-config.git",
+  "keywords": [
+    "typescript",
+    "tslint",
+    "angular"
+  ],
+  "author": "Rômulo Fernandes (@romulof)",
+  "license": "MIT",
+  "bugs": "https://github.com/hub9co/tslint-config/issues",
+  "homepage": "https://github.com/hub9co/tslint-config",
+  "dependencies": {
+    "codelyzer": "^4.0.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0"
+  }
+}

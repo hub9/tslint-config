@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "./tslint-eslint.json",
+    "./tslint-angular.json"
+  ],
+  "rules": {
+    "deprecation": {
+      "severity": "warn"
+    },
+    "import-blacklist": [
+      true,
+      "rxjs",
+      "rxjs/Rx"
+    ],
+    "interface-over-type-literal": false,
+    "interface-name": false,
+    "member-access": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-non-null-assertion": true,
+    "no-switch-case-fall-through": true,
+    "no-use-before-declare": true,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ]
+  }
+}
