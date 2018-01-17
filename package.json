@@ -1,6 +1,6 @@
 {
   "name": "@hub9/tslint-config",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "hub9 configuration for TSLint",
   "repository": "git+https://github.com/hub9co/tslint-config.git",
   "keywords": [
